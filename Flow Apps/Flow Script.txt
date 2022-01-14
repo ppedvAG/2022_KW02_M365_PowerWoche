@@ -1,0 +1,20 @@
+Dokument in Teams > PDF konvert. > EMail Anhang
+<T> SharePoint
+<A> OneDrive
+<A> Outlook
+
+Word
+Teams
+
+# Mienenfeld PowerAutomate
+WER wird in WELCHER Lizenz den Flow bauen?
+Welchen Connector brauche ich als Connection?
+Bitte Anmelde-Infos für Connection bedenken
+Bitte alles "stumpf" dynamisch nachschlagen
+Dynamische Verweis bringt dyn. Inhalt per Referenz
+Tipp : "Je urspünglicher die Daten umso weniger Probleme."
+Tipp: " ID ist nicht gleich ID, was die Bearbeitung angeht."
+Tipp: "Testen per [Test] der vergangenen Abläufe nutzen!"
+Jeder User gibt 250 Ausführungen PRO Monat in einen gemeinsamen
+AuführungsPool, der irgendwann erschöpft sein könnte; d.h. am Ende
+der Automatisierung könnte noch Monat übrig sein! #WARNUNG

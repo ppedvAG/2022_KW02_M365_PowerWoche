@@ -1,0 +1,36 @@
+[VISITORS]
+
+External 		-- USER mit externer eMail EINGELADEN wurde > Gast in AAD, aber NACHTRÄGLICH hinzugefügt
+Guest			-- AZURE hinzugefügt > Usage Location = Juristischer Rechtsraum    <-- WICHTIG!! 
+Guest Member		-- AZURE hinzugefügt > danach mit LIZENZ versehen ; Anmeldung = Gast && Lizenz = Member
+Mail Contact		-- EXCHANGE > externe eMail mappt auf INTERNEN ALIAS > verifizieren!
+Mail User		-- EXCHANGE > (ext eMail) ist vollwertiger INTERNER Member > bekommt Lizenz
+Cloud User		-- AZURE / 365 ADMIN > Cloud-only User OHNE AD-Existenz (ohne Sync)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[Groups, Groups, Groups,...]
+
+dynOffice365		-- dyn Ausdrücke für Membership in AZURE > Member von X "no *"
+Office365 Gruppe	-- Container für Security & Access Vorgänge über (fast) ALLES
+SecGroup		-- AZURE ein "Verteiler"-Container für S&A OHNE konkrete Inhalte
+MailSecGroup		-- SecGroup + eMail > EXCHANGE-item > Member einer Office365 Gruppe
+			-- MailContact = eMail ; immer dann, wenn ich eine eMail angeben soll
+			-- SharePoint Gruppe dürfen MailSecGroup als Member haben
+DistriGroup		-- REINER eMail-Verteiler klassisch :  [+] Finance
+dynDistriGroup		-- eMail-Verteiler, der Personen DYNAMISCH zuweist > Member
+
+------------------------------------------------------------------------------------------------------------------------
+
+[AppSource]
+
+Apps			-- USER holt sich diese selbst
+Anwendungen		-- ADMIN stellt diese bereit <-- BESSER!! 
+Connectors		-- AZURE für Office365 registriert Anwendung
+	Connector	-- ... zur Verwendung überall
+	Verbindung	-- ... innerhalb der PowerPattform 
+			{Flow, PowerApps, PowerBI, Dynamics365; Teams}
+	GateWay		-- ... zum Anbinden von onPrem-Strukturen (SQL SVR)
+Deploy o365-Add-In	-- im 365 ADMIN Center hinzugefügt (Services & Add-Ins)
+
+------------------------------------------------------------------------------------------------------------------------

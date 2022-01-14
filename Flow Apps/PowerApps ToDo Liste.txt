@@ -1,0 +1,9 @@
+# PowerApp Anleitung
+0.5 REFERENZ der Connectoren in FLOWs lesen!!
+1.0 Erste Erfahrungen mit FORMS
+1.5 Anpassen des Formulars
+2.0 Automatisch erstellte APPS
+2.5 Anpassen & Ergänzen der App
+3.0 Die VORLAGEN in PowerApps kennenlernen
+3.5 In PowerApps NEU von Null bauen
+4.0 PowerApps & PowerAutomate GEMEINSAM

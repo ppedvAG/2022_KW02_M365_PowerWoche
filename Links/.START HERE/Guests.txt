@@ -1,0 +1,9 @@
+Contoso-AAD > Add GUEST user : email von @ppedv.de && Usage Loc!
+ppedv-AAD > Contoso-AAD > bitte anmelden > Lizenz-ppedv nutzen
+Nutzen := alles, wofür ich eine EIGENE Lizenz habe und KEINE brauche
+EIGENE Lizenz ->> GUEST, da ich keine Lizenz von DIR brauche
+
+Contoso-AAD > Add GUEST user : email von @icloud.com && Usage Loc!
+Contoso-AAD > Microsoft Account : "Wollen Sie ein Konto anlegen?" JA!
+Outlook.com > Contoso-AAD > bitte anmelden > Lizenz = KEINE 
+KEINE Lizenz > braucht er eine Lizenz ->> MEMBER, da Lizenz von DIR 
